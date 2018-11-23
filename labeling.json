@@ -1,0 +1,70 @@
+{
+  "tools": [
+    {
+      "name": "Lego",
+      "color": "navy",
+      "tool": "polygon",
+      "classifications": [
+        {
+          "name": "color",
+          "instructions": "Select the color",
+          "type": "radio",
+          "options": [
+            {
+              "value": "red",
+              "label": "Red"
+            },
+            {
+              "value": "blue",
+              "label": "Blue"
+            },
+            {
+              "value": "green",
+              "label": "Green"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "name": "Part Number",
+      "instructions": "Enter the part number",
+      "type": "text",
+      "options": [
+        {
+          "value": "model_s",
+          "label": "Tesla Model S"
+        },
+        {
+          "value": "model_3",
+          "label": "Tesla Model 3"
+        },
+        {
+          "value": "model_x",
+          "label": "Tesla Model X"
+        }
+      ]
+    },
+    {
+      "name": "image_problems",
+      "instructions": "Select all that apply",
+      "type": "checklist",
+      "options": [
+        {
+          "value": "blur",
+          "label": "Blurry"
+        },
+        {
+          "value": "saturated",
+          "label": "Over Saturated"
+        },
+        {
+          "value": "pixelated",
+          "label": "Pixelated"
+        }
+      ]
+    }
+  ]
+}
